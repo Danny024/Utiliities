@@ -6,7 +6,7 @@ import os
 # Path to your ROS bag file
 bag_file = '/home/daniel/demo_bag/2024-04-12-15-37-43.bag'
 
-# Topic from which to extract images
+# images topic
 image_topic = '/stereo/left/image_raw/compressed'
 
 # Output video file path
@@ -28,7 +28,7 @@ except CvBridgeError as e:
     print(e)
     exit()
 
-# Define the codec and create a VideoWriter object
+# create a VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter(output_video_file, fourcc, fps, (width, height))
 
