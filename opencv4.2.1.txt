@@ -20,3 +20,6 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D WITH_XINE=ON \
 -D BUILD_NEW_PYTHON_SUPPORT=ON \
 -D OPENCV_GENERATE_PKGCONFIG=ON ../
+
+URL Link
+https://dev.to/swervin/how-to-install-opencv-4-2-0-on-ubuntu-18-04-3i7l
