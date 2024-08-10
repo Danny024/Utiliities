@@ -1,0 +1,1 @@
+ros2 run image_transport republish compressed raw --ros-args --remap in/compressed:={compressed image topic} --remap out:={raw_image_topic}
