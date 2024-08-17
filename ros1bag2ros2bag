@@ -1,0 +1,3 @@
+#convert ros1 bag to ros2 bag
+pip3 install rosbags>=0.9.11
+rosbags-convert --src 2024-06-04-test.bag --dst ros2_bag
