@@ -1,0 +1,5 @@
+solution to 
+
+UAS: GeographicLib exception: File not readable /usr/share/Geogr....
+
+sudo geographiclib-get-geoids egm96-5
